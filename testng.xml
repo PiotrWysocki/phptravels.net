@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+    <classes>
+      <class name="net.phptravels.home.HeaderTopOnChrome"/>
+      <class name="net.phptravels.home.HeaderTopOnFirefox"/>
+      <class name="net.phptravels.home.HeaderTopOnIE"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35809" started-at="2016-10-31T16:47:45Z" finished-at="2016-10-31T16:48:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="35809" started-at="2016-10-31T16:47:45Z" finished-at="2016-10-31T16:48:21Z">
+      <class name="net.phptravels.home.HeaderTopOnIE">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:net.phptravels.home.HeaderTopOnIE@27efef64]" name="beforeClass" is-config="true" duration-ms="622" started-at="2016-10-31T17:47:45Z" finished-at="2016-10-31T17:47:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:net.phptravels.home.HeaderTopOnIE@27efef64]" name="beforeMethod" is-config="true" duration-ms="17484" started-at="2016-10-31T17:47:46Z" finished-at="2016-10-31T17:48:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="selectSpanishLanguage()[pri:0, instance:net.phptravels.home.HeaderTopOnIE@27efef64]" name="selectSpanishLanguage" duration-ms="14294" started-at="2016-10-31T17:48:03Z" finished-at="2016-10-31T17:48:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectSpanishLanguage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:net.phptravels.home.HeaderTopOnIE@27efef64]" name="afterMethod" is-config="true" duration-ms="3373" started-at="2016-10-31T17:48:18Z" finished-at="2016-10-31T17:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- net.phptravels.home.HeaderTopOnIE -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
