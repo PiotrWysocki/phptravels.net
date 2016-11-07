@@ -1,29 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35809" started-at="2016-10-31T16:47:45Z" finished-at="2016-10-31T16:48:21Z">
+  <suite name="Default suite" duration-ms="203760" started-at="2016-11-07T18:31:41Z" finished-at="2016-11-07T18:35:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="35809" started-at="2016-10-31T16:47:45Z" finished-at="2016-10-31T16:48:21Z">
-      <class name="net.phptravels.home.HeaderTopOnIE">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:net.phptravels.home.HeaderTopOnIE@27efef64]" name="beforeClass" is-config="true" duration-ms="622" started-at="2016-10-31T17:47:45Z" finished-at="2016-10-31T17:47:46Z">
+    <test name="Default test" duration-ms="203760" started-at="2016-11-07T18:31:41Z" finished-at="2016-11-07T18:35:05Z">
+      <class name="net.phptravels.home.SlideUpOnFirefox">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:net.phptravels.home.SlideUpOnFirefox@27efef64]" name="beforeClass" is-config="true" duration-ms="14" started-at="2016-11-07T19:31:41Z" finished-at="2016-11-07T19:31:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:net.phptravels.home.HeaderTopOnIE@27efef64]" name="beforeMethod" is-config="true" duration-ms="17484" started-at="2016-10-31T17:47:46Z" finished-at="2016-10-31T17:48:03Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:net.phptravels.home.SlideUpOnFirefox@27efef64]" name="beforeMethod" is-config="true" duration-ms="29736" started-at="2016-11-07T19:31:41Z" finished-at="2016-11-07T19:32:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="selectSpanishLanguage()[pri:0, instance:net.phptravels.home.HeaderTopOnIE@27efef64]" name="selectSpanishLanguage" duration-ms="14294" started-at="2016-10-31T17:48:03Z" finished-at="2016-10-31T17:48:18Z">
+        <test-method status="PASS" signature="isSearchResultsOpenAfterSearchByFlight()[pri:0, instance:net.phptravels.home.SlideUpOnFirefox@27efef64]" name="isSearchResultsOpenAfterSearchByFlight" duration-ms="9223" started-at="2016-11-07T19:32:11Z" finished-at="2016-11-07T19:32:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selectSpanishLanguage -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:net.phptravels.home.HeaderTopOnIE@27efef64]" name="afterMethod" is-config="true" duration-ms="3373" started-at="2016-10-31T17:48:18Z" finished-at="2016-10-31T17:48:21Z">
+        </test-method> <!-- isSearchResultsOpenAfterSearchByFlight -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:net.phptravels.home.SlideUpOnFirefox@27efef64]" name="afterMethod" is-config="true" duration-ms="1310" started-at="2016-11-07T19:32:20Z" finished-at="2016-11-07T19:32:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- net.phptravels.home.HeaderTopOnIE -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:net.phptravels.home.SlideUpOnFirefox@27efef64]" name="beforeMethod" is-config="true" duration-ms="24054" started-at="2016-11-07T19:32:21Z" finished-at="2016-11-07T19:32:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="isSearchResultsOpenAfterSearchByFlight()[pri:0, instance:net.phptravels.home.SlideUpOnFirefox@27efef64]" name="isSearchResultsOpenAfterSearchByFlight" duration-ms="9518" started-at="2016-11-07T19:32:45Z" finished-at="2016-11-07T19:32:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSearchResultsOpenAfterSearchByFlight -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:net.phptravels.home.SlideUpOnFirefox@27efef64]" name="afterMethod" is-config="true" duration-ms="1263" started-at="2016-11-07T19:32:55Z" finished-at="2016-11-07T19:32:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:net.phptravels.home.SlideUpOnFirefox@27efef64]" name="beforeMethod" is-config="true" duration-ms="27515" started-at="2016-11-07T19:32:56Z" finished-at="2016-11-07T19:33:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="isSearchResultsOpenAfterSearchByFlight()[pri:0, instance:net.phptravels.home.SlideUpOnFirefox@27efef64]" name="isSearchResultsOpenAfterSearchByFlight" duration-ms="8246" started-at="2016-11-07T19:33:24Z" finished-at="2016-11-07T19:33:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSearchResultsOpenAfterSearchByFlight -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:net.phptravels.home.SlideUpOnFirefox@27efef64]" name="afterMethod" is-config="true" duration-ms="1131" started-at="2016-11-07T19:33:32Z" finished-at="2016-11-07T19:33:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:net.phptravels.home.SlideUpOnFirefox@27efef64]" name="beforeMethod" is-config="true" duration-ms="23951" started-at="2016-11-07T19:33:33Z" finished-at="2016-11-07T19:33:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="isSearchResultsOpenAfterSearchByFlight()[pri:0, instance:net.phptravels.home.SlideUpOnFirefox@27efef64]" name="isSearchResultsOpenAfterSearchByFlight" duration-ms="32958" started-at="2016-11-07T19:33:57Z" finished-at="2016-11-07T19:34:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSearchResultsOpenAfterSearchByFlight -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:net.phptravels.home.SlideUpOnFirefox@27efef64]" name="afterMethod" is-config="true" duration-ms="1144" started-at="2016-11-07T19:34:30Z" finished-at="2016-11-07T19:34:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:net.phptravels.home.SlideUpOnFirefox@27efef64]" name="beforeMethod" is-config="true" duration-ms="23013" started-at="2016-11-07T19:34:31Z" finished-at="2016-11-07T19:34:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="isSearchResultsOpenAfterSearchByFlight()[pri:0, instance:net.phptravels.home.SlideUpOnFirefox@27efef64]" name="isSearchResultsOpenAfterSearchByFlight" duration-ms="9535" started-at="2016-11-07T19:34:54Z" finished-at="2016-11-07T19:35:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSearchResultsOpenAfterSearchByFlight -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:net.phptravels.home.SlideUpOnFirefox@27efef64]" name="afterMethod" is-config="true" duration-ms="919" started-at="2016-11-07T19:35:04Z" finished-at="2016-11-07T19:35:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- net.phptravels.home.SlideUpOnFirefox -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
