@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="net.phptravels.home.SlideUpOnIE">
+      <class name="net.phptravels.home.SlideUpOnFirefox">
         <methods>
           <include name="beforeMethod"/>
           <include name="beforeClass"/>
-          <include name="isSearchResultsOpenAfterSearchByFlight"/>
           <include name="afterMethod"/>
+          <include name="isSearchResultsOpenAfterSearchCar"/>
         </methods>
-      </class> <!-- net.phptravels.home.SlideUpOnIE -->
+      </class> <!-- net.phptravels.home.SlideUpOnFirefox -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
