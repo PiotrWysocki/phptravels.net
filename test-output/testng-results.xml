@@ -1,89 +1,305 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" total="24" passed="24">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="189646" started-at="2016-11-11T08:25:57Z" finished-at="2016-11-11T08:29:06Z">
+  <suite name="Default suite" duration-ms="418405" started-at="2016-11-12T16:14:20Z" finished-at="2016-11-12T16:21:18Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="189646" started-at="2016-11-11T08:25:57Z" finished-at="2016-11-11T08:29:06Z">
-      <class name="net.phptravels.home.SlideUpOnFirefox">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:net.phptravels.home.SlideUpOnFirefox@1bce4f0a]" name="beforeClass" is-config="true" duration-ms="645" started-at="2016-11-11T09:25:57Z" finished-at="2016-11-11T09:25:57Z">
+    <test name="Default test" duration-ms="418405" started-at="2016-11-12T16:14:20Z" finished-at="2016-11-12T16:21:18Z">
+      <class name="net.phptravels.home.FeaturedOnIE">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="beforeClass" is-config="true" duration-ms="22" started-at="2016-11-12T17:14:20Z" finished-at="2016-11-12T17:14:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:net.phptravels.home.SlideUpOnFirefox@1bce4f0a]" name="beforeMethod" is-config="true" duration-ms="16010" started-at="2016-11-11T09:25:57Z" finished-at="2016-11-11T09:26:13Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="beforeMethod" is-config="true" duration-ms="14823" started-at="2016-11-12T17:14:20Z" finished-at="2016-11-12T17:14:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="isSearchResultsOpenAfterSearchCar()[pri:0, instance:net.phptravels.home.SlideUpOnFirefox@1bce4f0a]" name="isSearchResultsOpenAfterSearchCar" duration-ms="15546" started-at="2016-11-11T09:26:13Z" finished-at="2016-11-11T09:26:29Z">
+        <test-method status="PASS" signature="isCarPageOpenAfterClickImgInFeaturedCars()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="isCarPageOpenAfterClickImgInFeaturedCars" duration-ms="5432" started-at="2016-11-12T17:14:35Z" finished-at="2016-11-12T17:14:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- isSearchResultsOpenAfterSearchCar -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:net.phptravels.home.SlideUpOnFirefox@1bce4f0a]" name="afterMethod" is-config="true" duration-ms="2776" started-at="2016-11-11T09:26:29Z" finished-at="2016-11-11T09:26:32Z">
+        </test-method> <!-- isCarPageOpenAfterClickImgInFeaturedCars -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="afterMethod" is-config="true" duration-ms="2239" started-at="2016-11-12T17:14:40Z" finished-at="2016-11-12T17:14:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:net.phptravels.home.SlideUpOnFirefox@1bce4f0a]" name="beforeMethod" is-config="true" duration-ms="15186" started-at="2016-11-11T09:26:32Z" finished-at="2016-11-11T09:26:47Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="beforeMethod" is-config="true" duration-ms="8823" started-at="2016-11-12T17:14:43Z" finished-at="2016-11-12T17:14:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="isSearchResultsOpenAfterSearchCar()[pri:0, instance:net.phptravels.home.SlideUpOnFirefox@1bce4f0a]" name="isSearchResultsOpenAfterSearchCar" duration-ms="12963" started-at="2016-11-11T09:26:47Z" finished-at="2016-11-11T09:27:00Z">
+        <test-method status="PASS" signature="isCarPageOpenAfterClickImgInFeaturedCars()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="isCarPageOpenAfterClickImgInFeaturedCars" duration-ms="5177" started-at="2016-11-12T17:14:51Z" finished-at="2016-11-12T17:14:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- isSearchResultsOpenAfterSearchCar -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:net.phptravels.home.SlideUpOnFirefox@1bce4f0a]" name="afterMethod" is-config="true" duration-ms="988" started-at="2016-11-11T09:27:00Z" finished-at="2016-11-11T09:27:01Z">
+        </test-method> <!-- isCarPageOpenAfterClickImgInFeaturedCars -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="afterMethod" is-config="true" duration-ms="1377" started-at="2016-11-12T17:14:57Z" finished-at="2016-11-12T17:14:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:net.phptravels.home.SlideUpOnFirefox@1bce4f0a]" name="beforeMethod" is-config="true" duration-ms="14647" started-at="2016-11-11T09:27:01Z" finished-at="2016-11-11T09:27:15Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="beforeMethod" is-config="true" duration-ms="10142" started-at="2016-11-12T17:14:58Z" finished-at="2016-11-12T17:15:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="isSearchResultsOpenAfterSearchCar()[pri:0, instance:net.phptravels.home.SlideUpOnFirefox@1bce4f0a]" name="isSearchResultsOpenAfterSearchCar" duration-ms="13132" started-at="2016-11-11T09:27:15Z" finished-at="2016-11-11T09:27:28Z">
+        <test-method status="PASS" signature="isCarPageOpenAfterClickImgInFeaturedCars()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="isCarPageOpenAfterClickImgInFeaturedCars" duration-ms="5785" started-at="2016-11-12T17:15:08Z" finished-at="2016-11-12T17:15:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- isSearchResultsOpenAfterSearchCar -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:net.phptravels.home.SlideUpOnFirefox@1bce4f0a]" name="afterMethod" is-config="true" duration-ms="1858" started-at="2016-11-11T09:27:28Z" finished-at="2016-11-11T09:27:30Z">
+        </test-method> <!-- isCarPageOpenAfterClickImgInFeaturedCars -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="afterMethod" is-config="true" duration-ms="1165" started-at="2016-11-12T17:15:14Z" finished-at="2016-11-12T17:15:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:net.phptravels.home.SlideUpOnFirefox@1bce4f0a]" name="beforeMethod" is-config="true" duration-ms="17545" started-at="2016-11-11T09:27:30Z" finished-at="2016-11-11T09:27:48Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="beforeMethod" is-config="true" duration-ms="9635" started-at="2016-11-12T17:15:15Z" finished-at="2016-11-12T17:15:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="isSearchResultsOpenAfterSearchCar()[pri:0, instance:net.phptravels.home.SlideUpOnFirefox@1bce4f0a]" name="isSearchResultsOpenAfterSearchCar" duration-ms="13767" started-at="2016-11-11T09:27:48Z" finished-at="2016-11-11T09:28:02Z">
+        <test-method status="PASS" signature="isCarPageOpenAfterClickImgInFeaturedCars()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="isCarPageOpenAfterClickImgInFeaturedCars" duration-ms="4284" started-at="2016-11-12T17:15:25Z" finished-at="2016-11-12T17:15:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- isSearchResultsOpenAfterSearchCar -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:net.phptravels.home.SlideUpOnFirefox@1bce4f0a]" name="afterMethod" is-config="true" duration-ms="1008" started-at="2016-11-11T09:28:02Z" finished-at="2016-11-11T09:28:03Z">
+        </test-method> <!-- isCarPageOpenAfterClickImgInFeaturedCars -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="afterMethod" is-config="true" duration-ms="1538" started-at="2016-11-12T17:15:29Z" finished-at="2016-11-12T17:15:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:net.phptravels.home.SlideUpOnFirefox@1bce4f0a]" name="beforeMethod" is-config="true" duration-ms="15487" started-at="2016-11-11T09:28:03Z" finished-at="2016-11-11T09:28:18Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="beforeMethod" is-config="true" duration-ms="9718" started-at="2016-11-12T17:15:31Z" finished-at="2016-11-12T17:15:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="isSearchResultsOpenAfterSearchCar()[pri:0, instance:net.phptravels.home.SlideUpOnFirefox@1bce4f0a]" name="isSearchResultsOpenAfterSearchCar" duration-ms="14429" started-at="2016-11-11T09:28:18Z" finished-at="2016-11-11T09:28:33Z">
+        <test-method status="PASS" signature="isCarPageOpenAfterClickImgInFeaturedCars()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="isCarPageOpenAfterClickImgInFeaturedCars" duration-ms="5510" started-at="2016-11-12T17:15:40Z" finished-at="2016-11-12T17:15:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- isSearchResultsOpenAfterSearchCar -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:net.phptravels.home.SlideUpOnFirefox@1bce4f0a]" name="afterMethod" is-config="true" duration-ms="974" started-at="2016-11-11T09:28:33Z" finished-at="2016-11-11T09:28:34Z">
+        </test-method> <!-- isCarPageOpenAfterClickImgInFeaturedCars -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="afterMethod" is-config="true" duration-ms="1195" started-at="2016-11-12T17:15:46Z" finished-at="2016-11-12T17:15:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:net.phptravels.home.SlideUpOnFirefox@1bce4f0a]" name="beforeMethod" is-config="true" duration-ms="15966" started-at="2016-11-11T09:28:34Z" finished-at="2016-11-11T09:28:49Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="beforeMethod" is-config="true" duration-ms="8488" started-at="2016-11-12T17:15:47Z" finished-at="2016-11-12T17:15:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="isSearchResultsOpenAfterSearchCar()[pri:0, instance:net.phptravels.home.SlideUpOnFirefox@1bce4f0a]" name="isSearchResultsOpenAfterSearchCar" duration-ms="15717" started-at="2016-11-11T09:28:49Z" finished-at="2016-11-11T09:29:05Z">
+        <test-method status="PASS" signature="isCarPageOpenAfterClickImgInFeaturedCars()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="isCarPageOpenAfterClickImgInFeaturedCars" duration-ms="5885" started-at="2016-11-12T17:15:55Z" finished-at="2016-11-12T17:16:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- isSearchResultsOpenAfterSearchCar -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:net.phptravels.home.SlideUpOnFirefox@1bce4f0a]" name="afterMethod" is-config="true" duration-ms="964" started-at="2016-11-11T09:29:05Z" finished-at="2016-11-11T09:29:06Z">
+        </test-method> <!-- isCarPageOpenAfterClickImgInFeaturedCars -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="afterMethod" is-config="true" duration-ms="1423" started-at="2016-11-12T17:16:01Z" finished-at="2016-11-12T17:16:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- net.phptravels.home.SlideUpOnFirefox -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="beforeMethod" is-config="true" duration-ms="9450" started-at="2016-11-12T17:16:03Z" finished-at="2016-11-12T17:16:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="isHotelPageOpenAfterClickImgInFeaturedHotels()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="isHotelPageOpenAfterClickImgInFeaturedHotels" duration-ms="12310" started-at="2016-11-12T17:16:12Z" finished-at="2016-11-12T17:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isHotelPageOpenAfterClickImgInFeaturedHotels -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="afterMethod" is-config="true" duration-ms="1529" started-at="2016-11-12T17:16:25Z" finished-at="2016-11-12T17:16:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="beforeMethod" is-config="true" duration-ms="10147" started-at="2016-11-12T17:16:26Z" finished-at="2016-11-12T17:16:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="isHotelPageOpenAfterClickImgInFeaturedHotels()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="isHotelPageOpenAfterClickImgInFeaturedHotels" duration-ms="10390" started-at="2016-11-12T17:16:36Z" finished-at="2016-11-12T17:16:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isHotelPageOpenAfterClickImgInFeaturedHotels -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="afterMethod" is-config="true" duration-ms="2064" started-at="2016-11-12T17:16:47Z" finished-at="2016-11-12T17:16:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="beforeMethod" is-config="true" duration-ms="9767" started-at="2016-11-12T17:16:49Z" finished-at="2016-11-12T17:16:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="isHotelPageOpenAfterClickImgInFeaturedHotels()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="isHotelPageOpenAfterClickImgInFeaturedHotels" duration-ms="11031" started-at="2016-11-12T17:16:58Z" finished-at="2016-11-12T17:17:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isHotelPageOpenAfterClickImgInFeaturedHotels -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="afterMethod" is-config="true" duration-ms="1515" started-at="2016-11-12T17:17:09Z" finished-at="2016-11-12T17:17:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="beforeMethod" is-config="true" duration-ms="9002" started-at="2016-11-12T17:17:11Z" finished-at="2016-11-12T17:17:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="isHotelPageOpenAfterClickImgInFeaturedHotels()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="isHotelPageOpenAfterClickImgInFeaturedHotels" duration-ms="11581" started-at="2016-11-12T17:17:20Z" finished-at="2016-11-12T17:17:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isHotelPageOpenAfterClickImgInFeaturedHotels -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="afterMethod" is-config="true" duration-ms="1546" started-at="2016-11-12T17:17:32Z" finished-at="2016-11-12T17:17:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="beforeMethod" is-config="true" duration-ms="8965" started-at="2016-11-12T17:17:33Z" finished-at="2016-11-12T17:17:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="isHotelPageOpenAfterClickImgInFeaturedHotels()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="isHotelPageOpenAfterClickImgInFeaturedHotels" duration-ms="11078" started-at="2016-11-12T17:17:42Z" finished-at="2016-11-12T17:17:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isHotelPageOpenAfterClickImgInFeaturedHotels -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="afterMethod" is-config="true" duration-ms="1713" started-at="2016-11-12T17:17:53Z" finished-at="2016-11-12T17:17:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="beforeMethod" is-config="true" duration-ms="10970" started-at="2016-11-12T17:17:55Z" finished-at="2016-11-12T17:18:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="isHotelPageOpenAfterClickImgInFeaturedHotels()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="isHotelPageOpenAfterClickImgInFeaturedHotels" duration-ms="10176" started-at="2016-11-12T17:18:06Z" finished-at="2016-11-12T17:18:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isHotelPageOpenAfterClickImgInFeaturedHotels -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="afterMethod" is-config="true" duration-ms="1406" started-at="2016-11-12T17:18:16Z" finished-at="2016-11-12T17:18:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="beforeMethod" is-config="true" duration-ms="9123" started-at="2016-11-12T17:18:17Z" finished-at="2016-11-12T17:18:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="isOfferPageOpenAfterClickImgInFeaturedOffers()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="isOfferPageOpenAfterClickImgInFeaturedOffers" duration-ms="4464" started-at="2016-11-12T17:18:27Z" finished-at="2016-11-12T17:18:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isOfferPageOpenAfterClickImgInFeaturedOffers -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="afterMethod" is-config="true" duration-ms="1091" started-at="2016-11-12T17:18:31Z" finished-at="2016-11-12T17:18:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="beforeMethod" is-config="true" duration-ms="7872" started-at="2016-11-12T17:18:32Z" finished-at="2016-11-12T17:18:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="isOfferPageOpenAfterClickImgInFeaturedOffers()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="isOfferPageOpenAfterClickImgInFeaturedOffers" duration-ms="4227" started-at="2016-11-12T17:18:40Z" finished-at="2016-11-12T17:18:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isOfferPageOpenAfterClickImgInFeaturedOffers -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="afterMethod" is-config="true" duration-ms="1650" started-at="2016-11-12T17:18:44Z" finished-at="2016-11-12T17:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="beforeMethod" is-config="true" duration-ms="9345" started-at="2016-11-12T17:18:46Z" finished-at="2016-11-12T17:18:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="isOfferPageOpenAfterClickImgInFeaturedOffers()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="isOfferPageOpenAfterClickImgInFeaturedOffers" duration-ms="4469" started-at="2016-11-12T17:18:55Z" finished-at="2016-11-12T17:19:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isOfferPageOpenAfterClickImgInFeaturedOffers -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="afterMethod" is-config="true" duration-ms="1096" started-at="2016-11-12T17:19:00Z" finished-at="2016-11-12T17:19:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="beforeMethod" is-config="true" duration-ms="8402" started-at="2016-11-12T17:19:01Z" finished-at="2016-11-12T17:19:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="isOfferPageOpenAfterClickImgInFeaturedOffers()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="isOfferPageOpenAfterClickImgInFeaturedOffers" duration-ms="4592" started-at="2016-11-12T17:19:09Z" finished-at="2016-11-12T17:19:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isOfferPageOpenAfterClickImgInFeaturedOffers -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="afterMethod" is-config="true" duration-ms="1320" started-at="2016-11-12T17:19:14Z" finished-at="2016-11-12T17:19:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="beforeMethod" is-config="true" duration-ms="8130" started-at="2016-11-12T17:19:15Z" finished-at="2016-11-12T17:19:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="isOfferPageOpenAfterClickImgInFeaturedOffers()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="isOfferPageOpenAfterClickImgInFeaturedOffers" duration-ms="5136" started-at="2016-11-12T17:19:23Z" finished-at="2016-11-12T17:19:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isOfferPageOpenAfterClickImgInFeaturedOffers -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="afterMethod" is-config="true" duration-ms="1188" started-at="2016-11-12T17:19:28Z" finished-at="2016-11-12T17:19:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="beforeMethod" is-config="true" duration-ms="9074" started-at="2016-11-12T17:19:30Z" finished-at="2016-11-12T17:19:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="isOfferPageOpenAfterClickImgInFeaturedOffers()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="isOfferPageOpenAfterClickImgInFeaturedOffers" duration-ms="3600" started-at="2016-11-12T17:19:39Z" finished-at="2016-11-12T17:19:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isOfferPageOpenAfterClickImgInFeaturedOffers -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="afterMethod" is-config="true" duration-ms="1937" started-at="2016-11-12T17:19:42Z" finished-at="2016-11-12T17:19:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="beforeMethod" is-config="true" duration-ms="9415" started-at="2016-11-12T17:19:44Z" finished-at="2016-11-12T17:19:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="isTourPageOpenAfterClickImgInFeaturedTours()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="isTourPageOpenAfterClickImgInFeaturedTours" duration-ms="4380" started-at="2016-11-12T17:19:54Z" finished-at="2016-11-12T17:19:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isTourPageOpenAfterClickImgInFeaturedTours -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="afterMethod" is-config="true" duration-ms="2061" started-at="2016-11-12T17:19:58Z" finished-at="2016-11-12T17:20:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="beforeMethod" is-config="true" duration-ms="9288" started-at="2016-11-12T17:20:00Z" finished-at="2016-11-12T17:20:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="isTourPageOpenAfterClickImgInFeaturedTours()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="isTourPageOpenAfterClickImgInFeaturedTours" duration-ms="5528" started-at="2016-11-12T17:20:09Z" finished-at="2016-11-12T17:20:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isTourPageOpenAfterClickImgInFeaturedTours -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="afterMethod" is-config="true" duration-ms="2052" started-at="2016-11-12T17:20:15Z" finished-at="2016-11-12T17:20:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="beforeMethod" is-config="true" duration-ms="8024" started-at="2016-11-12T17:20:17Z" finished-at="2016-11-12T17:20:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="isTourPageOpenAfterClickImgInFeaturedTours()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="isTourPageOpenAfterClickImgInFeaturedTours" duration-ms="4959" started-at="2016-11-12T17:20:25Z" finished-at="2016-11-12T17:20:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isTourPageOpenAfterClickImgInFeaturedTours -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="afterMethod" is-config="true" duration-ms="2679" started-at="2016-11-12T17:20:30Z" finished-at="2016-11-12T17:20:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="beforeMethod" is-config="true" duration-ms="9095" started-at="2016-11-12T17:20:33Z" finished-at="2016-11-12T17:20:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="isTourPageOpenAfterClickImgInFeaturedTours()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="isTourPageOpenAfterClickImgInFeaturedTours" duration-ms="4650" started-at="2016-11-12T17:20:42Z" finished-at="2016-11-12T17:20:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isTourPageOpenAfterClickImgInFeaturedTours -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="afterMethod" is-config="true" duration-ms="1575" started-at="2016-11-12T17:20:46Z" finished-at="2016-11-12T17:20:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="beforeMethod" is-config="true" duration-ms="9965" started-at="2016-11-12T17:20:48Z" finished-at="2016-11-12T17:20:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="isTourPageOpenAfterClickImgInFeaturedTours()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="isTourPageOpenAfterClickImgInFeaturedTours" duration-ms="4365" started-at="2016-11-12T17:20:58Z" finished-at="2016-11-12T17:21:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isTourPageOpenAfterClickImgInFeaturedTours -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="afterMethod" is-config="true" duration-ms="1233" started-at="2016-11-12T17:21:02Z" finished-at="2016-11-12T17:21:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="beforeMethod" is-config="true" duration-ms="9477" started-at="2016-11-12T17:21:03Z" finished-at="2016-11-12T17:21:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="isTourPageOpenAfterClickImgInFeaturedTours()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="isTourPageOpenAfterClickImgInFeaturedTours" duration-ms="4059" started-at="2016-11-12T17:21:13Z" finished-at="2016-11-12T17:21:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isTourPageOpenAfterClickImgInFeaturedTours -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:net.phptravels.home.FeaturedOnIE@3532ec19]" name="afterMethod" is-config="true" duration-ms="1461" started-at="2016-11-12T17:21:17Z" finished-at="2016-11-12T17:21:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- net.phptravels.home.FeaturedOnIE -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
